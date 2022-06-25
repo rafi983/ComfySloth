@@ -7,7 +7,6 @@ import {
   CLEAR_CART,
   COUNT_CART_TOTALS,
 } from "../actions";
-import { useLocation } from "react-router-dom";
 
 const getLocalStorage = () => {
   let cart = localStorage.getItem("cart");
